@@ -1,7 +1,14 @@
-packages/strapi-helper-plugin/package.json
-packages/strapi-plugin-documentation/package.json
-packages/strapi-plugin-graphql/package.json
-packages/strapi-plugin-i18n/package.json
-packages/strapi-plugin-sentry/package.json
-packages/strapi-plugin-upload/package.json
-packages/strapi-provider-upload-rackspace/package.json
+version: '3'
+services:
+  strapi:
+    image: strapi/strapi
+    volumes:
+      - ./app:/srv/app
+    ports:
+      - '1337:1337'
+      docker-compose pull
+# Execute Docker image detaching the terminal
+docker-compose up -d
+
+# Execute Docker image without detaching the terminal
+docker-compose up
