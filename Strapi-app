@@ -1,1 +1,7 @@
-yarn create strapi-app my-project --quickstart
+packages/strapi-helper-plugin/package.json
+packages/strapi-plugin-documentation/package.json
+packages/strapi-plugin-graphql/package.json
+packages/strapi-plugin-i18n/package.json
+packages/strapi-plugin-sentry/package.json
+packages/strapi-plugin-upload/package.json
+packages/strapi-provider-upload-rackspace/package.json
