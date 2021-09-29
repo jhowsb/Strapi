@@ -9,6 +9,5 @@ services:
       docker-compose pull
 # Execute Docker image detaching the terminal
 docker-compose up -d
-
 # Execute Docker image without detaching the terminal
 docker-compose up
